@@ -34,11 +34,15 @@
   background-color: #74cfae;
   color: #fff;
   border: none;
-  transition:color 0.3s;
 }
 .fas {
   font-size: 45px;
   color: #333;
+}
+.button-header{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
 }
 .button-header:hover {
   color: #333;
@@ -81,14 +85,14 @@
   margin: 0 100px;
 }
 .section__inner__side__title { 
-  padding-bottom: 35px;
+  margin-bottom: 35px;
   font-size: 24px;
   font-family: Raleway;
 }
 .section__inner__side__text {
-  font-family: Lato;
   font-size: 20px;
   line-height: 1.5em;
+  font-family: Lato;
 }
 
 .article {
@@ -98,7 +102,7 @@
 .article__inner__title {
   text-align: center;
   font-size: 24px;
-  font-family: Releway;
+  font-family: Raleway;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -137,12 +141,14 @@
   font-size: 12px;
   padding: 14px 20px;
   background-color: #74fcae;
-  color: #fff;
   width: 130px;
-  text-align: center;
   margin-right: 60px;
   border: none;
+}
+.button-article{
   transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
 }
 .button-article:hover {
   color: #333;
@@ -159,6 +165,7 @@
   color: #fff;
   padding: 70px;
   font-size: 24px;
+  font-family: Raleway
 }
 .figure__inner__content {
   display: flex;
@@ -195,6 +202,7 @@
   padding: 25px 0;
   transition: 0.3s;
   cursor: pointer;
+  text-decoration: none;
 }
 .button-nav:hover {
   background-color: #fff;
