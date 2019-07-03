@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Raleway','Lota';
+  font-family: 'Raleway','Lato';
 }
 
 .inner {
@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   width: 100%;
   position: fixed;
+  z-index: 2;
 }
 
 .header__inner {
@@ -46,6 +47,10 @@ body {
   color: #333;
 }
 
+main{
+  padding-top: 75px;
+}
+
 .theme {
   background-color: #f2f2f2;
   width: 100%;
@@ -53,7 +58,7 @@ body {
 
 .theme__inner {
   padding-bottom: 250px;
-  padding-top: 325px;
+  padding-top: 250px;
   text-align: center;
 }
 
@@ -100,7 +105,7 @@ body {
   font-size: 20px;
   line-height: 1.5em;
   font-family: Lato;
-  margin-left: 45px;
+  padding-left: 45px;
 }
 
 .article {
@@ -122,9 +127,10 @@ body {
 
 .article__content{
   margin-bottom: 90px;
+  z-index: 1;
 }
 
-.article__content>div {
+.article__content>a {
   float: left;
   margin-right: 100px;
   margin-bottom: 80px;
@@ -132,15 +138,15 @@ body {
   transition: 0.3s;
 }
 
-.article__content>div:nth-child(3n) {
+.article__content>a:nth-child(3n) {
   margin-right: 0;
 }
 
-.article__content>div:nth-child(n+4) {
+.article__content>a:nth-child(n+4) {
   margin-bottom: 0;
 }
 
-.article__content>div:hover {
+.article__content>a:hover {
   opacity: 1;
 }
 
@@ -165,7 +171,7 @@ body {
   padding: 14px 20px;
   background-color: #74cfae;
   width: 140px;
-  margin-right: 190px;
+  margin-right: 177px;
   text-align: center;
   transition: 0.3s;
   text-decoration: none;
@@ -236,7 +242,7 @@ body {
   text-decoration: none;
 }
 
-.fas{
+.button-nav .fas{
   color: #74cfae;
 }
 
@@ -246,7 +252,7 @@ body {
 
 .footer {
   width: 100%;
-  background-color: #74fcae;
+  background-color: #74cfae;
 }
 .footer__inner {
   padding-top: 20px;
