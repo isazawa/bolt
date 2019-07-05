@@ -36,7 +36,6 @@ body {
   font-size: 12px;
   padding: 14px 12px;
   background-color: #74cfae;
-  color: #fff;
   border: none;
   text-decoration: none;
   color: #fff;
@@ -98,7 +97,6 @@ main{
 .section__side__title { 
   margin-bottom: 35px;
   font-size: 24px;
-  font-family: Raleway;
 }
 
 .section__side__text {
@@ -121,7 +119,6 @@ main{
 .article__title {
   text-align: center;
   font-size: 24px;
-  font-family: Raleway;
   margin-bottom: 40px;
 }
 
@@ -133,7 +130,6 @@ main{
 .article__content>a {
   float: left;
   margin-right: 100px;
-  margin-bottom: 80px;
   opacity: 0.7;
   transition: 0.3s;
 }
@@ -143,7 +139,7 @@ main{
 }
 
 .article__content>a:nth-child(n+4) {
-  margin-bottom: 0;
+  margin-top: 80px;
 }
 
 .article__content>a:hover {
@@ -197,7 +193,6 @@ main{
   color: #fff;
   font-size: 24px;
   margin-bottom: 50px;
-  font-family: Raleway
 }
 
 .figure__inner__content {
